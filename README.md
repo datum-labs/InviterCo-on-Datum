@@ -3,8 +3,9 @@ Deploy a Datum Gateway with Kustomize Manifests
 
 [InviterCo](https://inviter.co) provides a seamless Slack integration for managing invitations and access control.
 
-Q: Inviter.co is great, but what if you want to brand behind your own domain name? 
-A: Use Datum Gateways! This example deploys a Datum Gateway to act as a transparent reverse proxy for your vanity domain name (in our case `slack.datum.net`) and the inviter.co URL (in our case `inviter.co/datum`). This functionality allows you to bring your own domain name and service requests from our global anycast reverse proxy service.
+**Q:** Inviter.co is great, but what if you want to brand behind your own domain name?
+
+**A:** Use Datum Gateways! This example deploys a Datum Gateway to act as a transparent reverse proxy for your vanity domain name (in our case `slack.datum.net`) and the inviter.co URL (in our case `inviter.co/datum`). This functionality allows you to bring your own domain name and service requests from our global anycast reverse proxy service.
 
 ## Requirements
 
